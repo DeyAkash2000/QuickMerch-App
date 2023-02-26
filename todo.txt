@@ -1,0 +1,39 @@
+Buyer ---
+    Layout
+        Header
+            {Body}
+        Footer
+
+    Pages:
+        HomePage
+        SearchResults
+        Profile
+        Cart {Followed by payment system}
+        Wishlist
+        product (Dynamic Routing)
+        Orders (Order history & tracking current order)
+        FAQ
+
+Admin / Delivery Executive ---
+    Layout 
+        Header
+        Asidenavbar
+            {Body}
+
+    Pages:    
+        Admin:
+            Dashboard
+            Profile
+            Products
+            Orders
+            Accounts
+            Delivery Management
+            Feedbacks
+
+        Delivery Executive:
+            Schedules
+            Profile
+            Delivery (perOrder) {Dynamic Routing}
+
+
+Login & Signup & ForgetPassword
